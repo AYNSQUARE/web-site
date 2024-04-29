@@ -1,0 +1,38 @@
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body,
+html {
+  background-color: rgb(35, 38, 45);
+  height: 100%;
+}
+
+.visit_text {
+  color: white;
+  font-weight: bold;
+  font-size: 5rem;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-jc-c {
+  justify-content: center;
+}
+
+.flex-ai-c {
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .visit_text {
+    font-size: 2.5rem;
+  }
+}
